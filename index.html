@@ -1,0 +1,74 @@
+<!-- Ahmed Mahmoud Ahmed Elhossieny - 224101285 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Mahmoud Ahmed Elhossieny - Profile</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Ahmed Mahmoud Ahmed Elhossieny</h1>
+    <nav class="navbar">
+      <span class="nav-name">Ahmed Elhossieny</span>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="profile-section">
+      <img src="images/me.jpg" alt="Profile photo of Ahmed Mahmoud Ahmed Elhossieny" class="profile-photo">
+      <div class="profile-info">
+        <h2>Computer Science &amp; Engineering Student</h2>
+        <p>Welcome to my profile page. I am studying at New Mansoura University and building projects in web development and software engineering.</p>
+        <button id="theme-toggle" type="button">Toggle Dark Mode</button>
+      </div>
+    </section>
+
+    <section id="skills" class="cards-section">
+      <h2>Skills &amp; Hobbies</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Web Development</h3>
+          <p>Building clean, responsive pages using HTML5, CSS3, Flexbox, and JavaScript.</p>
+        </div>
+        <div class="card">
+          <h3>Programming</h3>
+          <p>Writing structured code and solving algorithmic problems with C++ and Python.</p>
+        </div>
+        <div class="card">
+          <h3>Hobbies</h3>
+          <p>Exploring UI design, playing football with friends, and learning new tech tools.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="form-section">
+      <h2>Leave a Message</h2>
+      <form id="visitor-form" novalidate>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <input type="submit" value="Say Hello" class="submit-btn">
+      </form>
+      <p id="form-message" class="form-message"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Ahmed Mahmoud Ahmed Elhossieny. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
